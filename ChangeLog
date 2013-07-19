@@ -1,0 +1,91 @@
+1.0.0
+  13-01-03
+  Initial TER release
+  Files are removed because of security reasons:
+  * *.wsdl file
+  * test
+    * *.wsdl file
+    * index.php
+
+0.1.5
+  12-07-04
+  Dirk Wildt  http://wildt.at.die-netzmacher.de
+  Bugfix
+  * #00000: Test user couldn't logged in
+
+0.1.4
+  12-07-03
+  Frank Sander <sander@wilder-jaeger.de>
+  Development:
+  * #00000: Changed html and wraps for logout form
+
+0.1.3
+  12-07-02
+  Dirk Wildt  http://wildt.at.die-netzmacher.de
+  New Features:
+  * #00000: getUserData
+  * #00000: SOAP error message with response and request
+  Bugfix
+  * #00000: Permanent session data
+  * #00000: starttime login SOAP user
+
+0.1.2
+  12-07-01
+  Frank Sander <sander@wilder-jaeger.de>
+  Development:
+  * #00000: HTML Template got the marker ###SOAPUSER_LOGOUT_PROFILELINK###
+  * #00000: PID of profile page added to constant editor: fe_users.profilePid
+
+0.1.1
+  12-06-20
+  Dirk Wildt  http://wildt.at.die-netzmacher.de
+  Manual
+  * #00000: Adding the manual
+  Development
+  * #00000: defaultsoapuser is removed
+            /lib/extmanager/class.tx_soapuser_extmanager.php
+            /ext_conf_template.txt
+            /lib/locallang.xml
+  Bugfixing
+  * #00000: /lib/locallang.xml
+
+0.1.0
+  12-06-19
+  Dirk Wildt  http://wildt.at.die-netzmacher.de
+  Development
+  * #00000: extKey is moved from feusersoap to soapuser
+  * #00000: Extension manager checks a lot of properties
+  * #00000: Integration of SOAP data exchange
+  * #00000: HTML template got the marker
+            * ###SOAPUSER_STATUS_MESSAGE###
+            * ###SOAPUSER_SOAPTEST_MESSAGE###
+  * #00000: SOAP qualifies error and
+            * prompts it to the DRS
+            * and sets session data
+              * soapuser_status_message
+              * soapuser_soaptest_message
+  * #00000: Session data will reset by the hook class methods at the end of the workflow
+
+0.0.4
+  12-04-27
+  Dirk Wildt  http://wildt.at.die-netzmacher.de
+  Development
+  * #00000: extKey is moved from soapuser to feusersoap
+
+0.0.3
+  12-04-25
+  Dirk Wildt  http://wildt.at.die-netzmacher.de
+  Development
+  * #00000: Move from plugin to service
+
+0.0.2
+  12-04-26
+  Dirk Wildt  http://wildt.at.die-netzmacher.de
+  Development
+  * #00000: Adding the service skeleton
+
+0.0.1
+  12-04-18
+  Initial release
+  extKey: soapuser
+  Dirk Wildt  http://wildt.at.die-netzmacher.de

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+  <meta type="array">
+    <type>database</type>
+    <description>Language labels for database tables/fields belonging to extension 'soapuser'</description>
+  </meta>
+  <data type="array">
+    <languageKey index="default" type="array">
+      <label index="tt_content.list_type_pi1">SOAP users for Powermail</label>
+      <label index="tx_soapuser_groups">External SOAP Usergroups</label>
+      <label index="tx_soapuser_groups.externalgroup">External SOAP Usergroup</label>
+      <label index="tx_soapuser_groups.fe_group">Website Usergroup</label>
+      <label index="tx_soapuser_groups.fe_groups">Website Usergroups</label>
+      <label index="tx_soapuser_groups.note">Note</label>
+      <label index="wizard.list_type_pi1">SOAP Users: Login</label>
+      <label index="wizard.list_type_pi1.desc">Login for SOAP users including the link for get the current password.</label>
+      <label index="tt_content.list_type_pi2">SOAP Users: Administration</label>
+      <label index="wizard.list_type_pi2">SOAP Users: Administration</label>
+      <label index="wizard.list_type_pi2.desc">SOAP Users administration form.</label>
+    </languageKey>
+    <languageKey index="de" type="array">
+      <label index="tt_content.list_type_pi1">SOAP Users f<![CDATA[&uuml;]]>r Powermail</label>
+      <label index="tx_soapuser_groups">Externe SOAP Benutzergruppen</label>
+      <label index="tx_soapuser_groups.externalgroup">Externe SOAP Benutzergruppe</label>
+      <label index="tx_soapuser_groups.fe_group">Website Benutzergruppe</label>
+      <label index="tx_soapuser_groups.fe_groups">Website Benutzergruppen</label>
+      <label index="tx_soapuser_groups.note">Bemerkung</label>
+      <label index="wizard.list_type_pi1">SOAP-Benutzer: Login</label>
+      <label index="wizard.list_type_pi1.desc">Login-Formular f<![CDATA[&uuml;]]>r SOAP-Benutzer mit Link "Passwort vergessen".</label>
+      <label index="tt_content.list_type_pi2">SOAP-Benutzer: Verwaltung</label>
+      <label index="wizard.list_type_pi2">SOAP-Benutzer: Verwaltung</label>
+      <label index="wizard.list_type_pi2.desc">Formular f<![CDATA[&uuml;]]>r SOAP-Benutzer mit den eigenen Daten.</label>
+    </languageKey>
+  </data>
+</T3locallang>

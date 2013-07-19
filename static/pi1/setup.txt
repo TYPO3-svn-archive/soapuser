@@ -1,0 +1,15 @@
+plugin.tx_soapuser_pi1 {
+  template {
+      // default file
+    file = EXT:soapuser/res/html/default.tmpl
+  }
+  flexform {
+    sDEF {
+        // Path to the image file with the PDF icon
+      imagefile = TEXT
+      imagefile {
+        value = EXT:soapuser/res/images/pdf.png
+      }
+    }
+  }
+}

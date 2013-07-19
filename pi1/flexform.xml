@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+  <meta>
+    <langDisable>1</langDisable>
+  </meta>
+  <sheets>
+    <sDEF>EXT:soapuser/pi1/flexform_sheet_sDEF.xml</sDEF>
+    <powermail>EXT:soapuser/pi1/flexform_sheet_powermail.xml</powermail>
+  </sheets>
+</T3DataStructure>

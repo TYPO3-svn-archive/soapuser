@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+  <meta type="array">
+    <type>module</type>
+    <description>Language labels for plugin "tx_browser_pi1"</description>
+  </meta>
+  <data type="array">
+    <languageKey index="default" type="array">
+      <label index="powermail">Powermail</label>
+      <label index="powermail.confirm">Has the Powermail form a confirmation page enabled? This configuration MUST correspondend with the Powermail configuration!</label>
+      <label index="powermail.uid">Uid of the Powermail form on the current page.</label>
+      <label index="sDEF">Information</label>
+      <label index="sDEF.info"><![CDATA[
+        <div>
+          <p>
+            This plugin takes care of the data exchange between the SOAP Server and Powermail.
+          </p>
+          <h2 style="font-size:1.1em;margin:1em 0 .4em 0;">
+            Needed elements on this page
+          </h2>
+          <ul style="list-style:disc;margin-left:2em;">
+            <li>
+              This plugin.
+            </li>
+            <li>
+              The Powermail plugin with fieldsets and fields.
+            </li>
+            <li>
+              A TypoScript template, which controls the data exchange between the SOAP plugin 
+              and the Powermail plugin.
+            </li>
+          </ul>
+          <h2 style="font-size:1.1em;margin:1em 0 .4em 0;">
+            Workflow
+          </h2>
+          <ul style="list-style:disc;margin-left:2em;">
+            <li>
+              This plugin prepairs user data for the Powermail plugin.
+            </li>
+            <li>
+              If the user has sent data by the Powermail plugin, this plugin will update the data
+              at the SOAP server.
+            </li>
+          </ul>
+          <h2 style="font-size:1.1em;margin:1em 0 .4em 0;">
+            Configuration
+          </h2>
+          <ul style="list-style:disc;margin-left:2em;">
+            <li style="color:red;font-weight:bold;">
+              This plugin must have the same configuration like the Powermail plugin in the tab [Powermail]!
+            </li>
+            <li>
+              The ID of the Powermail plugin must maintained in the tab [Powermail].
+            </li>
+            <li>
+              You control the Powermail plugin by TypoScript too. Please take a look into the manual! 
+            </li>
+          </ul>
+          <h2 style="font-size:1.1em;margin:1em 0 .4em 0;">
+            Manual
+          </h2>
+          <ul style="list-style:disc;margin-left:2em;">
+            <li>
+              <a style="text-decoration:underline;" href="../typo3conf/ext/soapuser/doc/manual.pdf" target="_blank">SOAP users Manual</a>
+            </li>
+          </ul>
+        </div>
+      ]]></label>
+    </languageKey>
+    <languageKey index="de" type="array">
+      <label index="powermail">Powermail</label>
+      <label index="powermail.confirm">Ist im Powermail Formular eine Bestaetigungsseite aktiviert? Diese Einstellung MUSS die gleiche sein wie im Powermail Formular.</label>
+      <label index="powermail.uid">Uid des Powermail-Formulars auf dieser Seite.</label>
+      <label index="sDEF">Information</label>
+      <label index="sDEF.info"><![CDATA[
+        <div>
+          <p>
+            Dieses Plugin k&uuml;mmert sich um den Austausch der Benutzerdaten von Powermail und dem SOAP-Server.
+          </p>
+          <h2 style="font-size:1.1em;margin:1em 0 .4em 0;">
+            Ben&ouml;tigte Elemente f&uuml;r diese Seite
+          </h2>
+          <ul style="list-style:disc;margin-left:2em;">
+            <li>
+              Dieses Plugin.
+            </li>
+            <li>
+              Das Powermail-Plugin mit Feldgruppen und Feldern.
+            </li>
+            <li>
+              Ein TypoScript-Template, das den Datenaustausch zwischen dem SOAP-Plugin und dem Powermail-Plugin
+              steuert.
+            </li>
+          </ul>
+          <h2 style="font-size:1.1em;margin:1em 0 .4em 0;">
+            Ablauf
+          </h2>
+          <ul style="list-style:disc;margin-left:2em;">
+            <li>
+              Dieses Plugin bereitet die Daten des Benutzers f&uuml;r das Powermail-Plugin vor.
+            </li>
+            <li>
+              Wenn der Benutzer mit dem Powermail-Plugin Daten versendet hat, &uuml;bertr&auml;gt dieses Plugin 
+              die ge&auml;nderten Daten an den SOAP-Server.
+            </li>
+          </ul>
+          <h2 style="font-size:1.1em;margin:1em 0 .4em 0;">
+            Konfiguration
+          </h2>
+          <ul style="list-style:disc;margin-left:2em;">
+            <li style="color:red;font-weight:bold;">
+              Dieses Plugin muss im Reiter [Powermail] die gleiche Einstellung haben, wie im Powermail Plugin!
+            </li>
+            <li>
+              Die ID des Powermail-Plugins muss im Reiter [Powermail] angegeben werden.
+            </li>
+            <li>
+              Das Powermail-Plugin muss mit Hilfe von TypoScript konfiguriert werden. Wirf einen Blick ins Handbuch! 
+            </li>
+          </ul>
+          <h2 style="font-size:1.1em;margin:1em 0 .4em 0;">
+            Handbuch
+          </h2>
+          <ul style="list-style:disc;margin-left:2em;">
+            <li>
+              <a style="text-decoration:underline;" href="../typo3conf/ext/soapuser/doc/manual.pdf" target="_blank">SOAP users Handbuch</a>
+            </li>
+          </ul>
+        </div>
+      ]]></label>
+    </languageKey>
+  </data>
+</T3locallang>

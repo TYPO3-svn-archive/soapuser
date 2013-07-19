@@ -1,0 +1,9 @@
+plugin.tx_soapuser_pi2 {
+
+  # cat=PDF Controller Button//110;       type=int+;    label= ID PDF Controller:Id of the page, which contains the PDF Controller User Interface
+  page.pdf_controller =
+
+  # cat=PDF Controller Button//120;       type=int+;    label= typeNum for print template:default is 98
+  typeNum.print = 98
+
+}

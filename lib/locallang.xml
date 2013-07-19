@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+  <meta type="array">
+    <type>module</type>
+    <description>Language labels for plugin &quot;tx_soapuser_pi1&quot;</description>
+  </meta>
+  <data type="array">
+    <languageKey index="default" type="array">
+      <label index="promptAccessByIpOk"><![CDATA[
+        SOAP tests: Current IP is proper.
+      ]]></label>
+      <label index="promptAccessByIpError"><![CDATA[
+        SOAP tests: Current IP isn't a member of the list of allowed IPs. SOAP tests are disabled! See category DEBUGGING.
+      ]]></label>
+      <label index="promptConfCheckerAdminError"><![CDATA[
+        DAT SOAP administrator
+        <ul>
+          <li style="margin-bottom:0;">
+            ERROR: Access data for the external SOAP administrator are missing.
+          </li>
+        </ul>
+        Please edit the access data in the category SOAP ADMIN.
+      ]]></label>
+      <label index="promptConfCheckerAdminOk"><![CDATA[
+        External SOAP administrator is configured. See category SOAP ADMIN.
+      ]]></label>
+      <label index="promptConfCheckerFeusersPidEmpty"><![CDATA[
+        The pid for the fe_users is missing. See category FE_USERS.
+      ]]></label>
+      <label index="promptConfCheckerFeusersPidEmptyRow"><![CDATA[
+        The pid for the fe_users is wrong: There isn't any page or directory with this id. See category FE_USERS.
+      ]]></label>
+      <label index="promptConfCheckerFeusersPidOk"><![CDATA[
+        The pid for the fe_users is proper: page or directory is existing. See category FE_USERS.
+      ]]></label>
+      <label index="promptConfCheckerFeusersRemoveGroupEmpty"><![CDATA[
+        The remove group for the fe_users is missing. New SOAP users can't cleaned up automatically. See category FE_USERS.
+      ]]></label>
+      <label index="promptConfCheckerFeusersRemoveGroupOk"><![CDATA[
+        The remove group for the fe_users is proper. Every new DAT user will attributed to this group. Users with this group, will cleanded up automatically. See category FE_USERS.
+      ]]></label>
+      <label index="promptConfCheckerOk"><![CDATA[
+        Teamwork with other TYPO3 extensions is proper.
+        <ul>
+          <li style="margin-bottom:0;">
+            OK: Login-Security-Level for frontend users is disabled.
+          </li>
+          <li style="margin-bottom:0;">
+            OK: "Salted Passwords" for frontend users is disabled.
+          </li>
+        </ul>
+      ]]></label>
+      <label index="promptConfCheckerRsaError"><![CDATA[
+        Teamwork with other TYPO3 extensions isn't proper.
+        <ul>
+          <li style="margin-bottom:0;">
+            ERROR: Login-Security-Level for frontend users is 'rsa'.
+          </li>
+        </ul>
+        Please remove or empty $TYPO3_CONF_VARS['FE']['loginSecurityLevel'] in localconf.php.
+      ]]></label>
+      <label index="promptConfCheckerRsaOk"><![CDATA[
+        Login-Security-Level for frontend users is proper.
+      ]]></label>
+      <label index="promptConfCheckerSaltedpasswordsError"><![CDATA[
+        Teamwork with other TYPO3 extensions isn't proper.
+        <ul>
+          <li style="margin-bottom:0;">
+            ERROR: Salted passwords for frontend users is enabled.
+          </li>
+        </ul>
+        Please disable the property [Enable SaltedPasswords in the frontend] in the extension manager of Salted Passwords.
+      ]]></label>
+      <label index="promptConfCheckerSaltedpasswordsOk"><![CDATA[
+        Salted passwords for frontend users is disabled.
+      ]]></label>
+      <label index="promptConfCheckerTestuserError"><![CDATA[
+        External SOAP testuser
+        <ul>
+          <li style="margin-bottom:0;">
+            Access data for the external SOAP testuser are missing.
+          </li>
+          <li style="margin-bottom:0;">
+            Tests with the testuser will failed.
+          </li>
+        </ul>
+        If you like to run tests successfully, please edit the access data of the testuser in the category SOAP TESTUSER.
+      ]]></label>
+      <label index="promptConfCheckerTestuserOk"><![CDATA[
+        External SOAP testuser is configured. See category SOAP TESTUSER.
+      ]]></label>
+      <label index="promptCurrIPBody">Your current IP</label>
+      <label index="promptDrsOk"><![CDATA[
+        If you get any unexepected result, please enable the DRS - the Development Reporting System. See category DEBUGGING.
+      ]]></label>
+      <label index="promptDrsWarn"><![CDATA[
+        The DRS - the Development Reporting System - is enabled. This is a security risk. Please disable it after debugging. See category DEBUGGING.
+      ]]></label>
+      <label index="promptSoapModeOk"><![CDATA[
+        If you get any unexepected result, please enable SOAP tests. See category DEBUGGING.
+      ]]></label>
+      <label index="promptSoapModeWarn"><![CDATA[
+        SOAP tests are enabled. You can login with the testuser data. This is a security risk. Please disable SOAP tests after debugging. See category DEBUGGING.
+      ]]></label>
+      <label index="promptExternalLinksBody"><![CDATA[
+        <div>
+          <a href="http://die-netzmacher.de/" 
+            alt="Die Netzmacher - Internet ist Handwerk"
+            title="Die Netzmacher - Internet ist Handwerk"
+            target="_blank">
+            <img src="../../../../typo3conf/ext/soapuser/lib/icons/die-netzmacher.de_200px.gif"
+              width="200" 
+              height="80" 
+              alt="Die Netzmacher - Internet ist Handwerk" /></a>
+        </div>
+      ]]></label>
+    </languageKey>
+    <languageKey index="de" type="array">
+      <label index="promptConfCheckerOk"><![CDATA[
+        Die Konfiguration anderer TYPO3-Erweiterungen  ist in Ordnung.
+        <ul>
+          <li style="margin-bottom:0;">
+            OK: Login-Security-Level f&uuml;r Frontend-User ist deaktiviert.
+          </li>
+          <li style="margin-bottom:0;">
+            OK: "Salted Passwords" f&uuml;r Frontend-User ist deaktviert.
+          </li>
+        </ul>
+      ]]></label>
+      <label index="promptConfCheckerRsaError"><![CDATA[
+        Die Konfiguration anderer TYPO3-Erweiterungen ist nicht in Ordnung.
+        <ul>
+          <li style="margin-bottom:0;">
+            FEHLER: Login-Security-Level f&uuml;r Frontend-User ist 'rsa'.
+          </li>
+        </ul>
+        Bitte entferne oder leere $TYPO3_CONF_VARS['FE']['loginSecurityLevel'] in der Datei localconf.php.
+      ]]></label>
+      <label index="promptConfCheckerRsaOk"><![CDATA[
+        Login-Security-Level f&uuml;r Frontend-User ist in Ordnung.
+      ]]></label>
+      <label index="promptConfCheckerSaltedpasswordsError"><![CDATA[
+        Die Konfiguration anderer TYPO3-Erweiterungen  ist nicht in Ordnung.
+        <ul>
+          <li style="margin-bottom:0;">
+            FEHLER: Salted Passwords f&uuml;r Frontent-User is aktiviert.
+          </li>
+        </ul>
+        Bitte deaktiviere die Eigenschaft [Enable SaltedPasswords in the frontend] im Extension Manager von Salted Passwords.
+      ]]></label>
+      <label index="promptConfCheckerSaltedpasswordsOk"><![CDATA[
+        Salted Passwords f&uuml;r Frontent-User is deaktiviert.
+      ]]></label>
+      <label index="promptCurrIPBody">Deine aktuelle IP-Adresse</label>
+      <label index="promptExternalLinksBody"><![CDATA[
+        <div>
+          <a href="http://die-netzmacher.de/"
+            alt="Die Netzmacher - Internet ist Handwerk"
+            title="Die Netzmacher - Internet ist Handwerk"
+            target="_blank">
+            <img src="../../../../typo3conf/ext/soapuser/lib/icons/die-netzmacher.de_200px.gif"
+              width="200"
+              height="80"
+              alt="Die Netzmacher - Internet ist Handwerk" /></a>
+        </div>
+      ]]></label>
+    </languageKey>
+  </data>
+</T3locallang>

@@ -1,0 +1,51 @@
+  # cat=configuration check/enable/100;   type=user[EXT:soapuser/lib/extmanager/class.tx_soapuser_extmanager.php:tx_soapuser_extmanager->confChecker]; label=Configuration checker
+confChecker = 1
+  # cat=configuration check/others/199;   type=user[EXT:soapuser/lib/extmanager/class.tx_soapuser_extmanager.php:tx_soapuser_extmanager->promptExternalLinks]; label=External Links
+confCheckerExternalLinks = 0
+
+  # cat=SOAP wsdl/enable/100;             type=string; label= SOAP WSDL file: relative path to the wsdl file. Example: typo3conf/ext/soapuser/res/wsdl/soapDefinition.wsdl
+wsdlFile = typo3conf/ext/soapuser/res/wsdl/soapDefinition_0.0.1.wsdl 
+  # cat=SOAP wsdl/others/199;             type=user[EXT:soapuser/lib/extmanager/class.tx_soapuser_extmanager.php:tx_soapuser_extmanager->promptExternalLinks]; label=External Links
+wsdlFileExternalLinks = 0
+
+  # cat=SOAP admin/enable/100;            type=string; label= Admin Client Number (required!)
+adminSoapClientno = 
+  # cat=SOAP admin/enable/101;            type=string; label= Admin Name for Login (required!)
+adminSoapLogin = 
+  # cat=SOAP admin/enable/102;            type=string; label= Admin Password (required!)
+adminSoapPassword = 
+  # cat=SOAP admin/others/199;            type=user[EXT:soapuser/lib/extmanager/class.tx_soapuser_extmanager.php:tx_soapuser_extmanager->promptExternalLinks]; label=External Links
+adminExternalLinks = 0
+
+  # cat=SOAP testuser/enable/100;         type=string; label= Client Number: client number of the testuser
+testuserSoapClientno = 
+  # cat=SOAP testuser/enable/101;         type=string; label= Name for Login:external username of the testuser
+testuserSoapLogin = 
+  # cat=SOAP testuser/enable/102;         type=string; label= Password:password of the testuser.
+testuserSoapPassword = 
+  # cat=SOAP testuser/enable/103;         type=string; label= Groups:Groups of the testuser. Comma separated values (CSV). 
+testuserSoapGroups =  
+  # cat=SOAP testuser/others/199;         type=user[EXT:soapuser/lib/extmanager/class.tx_soapuser_extmanager.php:tx_soapuser_extmanager->promptExternalLinks]; label=External Links
+testuserExternalLinks = 0
+
+  # cat=fe_users/enable/100;            type=integer; label= PID fe_users (required!):ID of the frontend user directory
+fe_usersPid =
+  # cat=fe_users/enable/101;            type=options[30 minutes,1 hour (recommended),2 hours,12 hours,24 hours]; label= Lifetime of the current user:User will be disabled after ... 
+fe_usersEndtime = 1 hour (recommended)
+  # cat=fe_users/enable/102;            type=options[30 minutes,1 hour,2 hours (recommended),12 hours,24 hours]; label= Lifetime off all users:User records will be removed after ... 
+fe_usersRemoveAfter = 2 hours (recommended)
+  # cat=fe_users/enable/100;            type=integer; label= Remove group:Users are cleaned up automatically, if they are attributed to this group
+fe_usersRemoveGroup =
+  # cat=fe_users/others/199;            type=user[EXT:soapuser/lib/extmanager/class.tx_soapuser_extmanager.php:tx_soapuser_extmanager->promptExternalLinks]; label=External Links
+fe_usersExternalLinks = 0
+
+  # cat=debugging/dev/100;                type=user[EXT:soapuser/lib/extmanager/class.tx_soapuser_extmanager.php:tx_soapuser_extmanager->promptCurrIP]; label=Your current IP
+currentIP = 0
+  # cat=debugging/dev/101;                type=string; label= Allowed IPs: comma seperated list of IPs, which will use the testuser by default (security risk!). Example: 127.0.0.1, 127.0.0.2, 87.193.24.35
+allowedIPs = 
+  # cat=debugging/dev/102;                type=options[Disabled,Enabled]; label= SOAP test: Disabled: nothing will happen. Enabled: SOAP server will simulated, user will created with test data. 
+soapMode = Disabled
+  # cat=debugging/dev/103;                type=options[Don't log anything,--------------------,All,--------------------,Flexform,Security,Services,Session,Update,--------------------,All]; label= DRS - Development Reporting System: Messages will be written to DevLog (you need the extension devlog).
+drs_mode = Don't log anything
+  # cat=debugging/others/199;             type=user[EXT:soapuser/lib/extmanager/class.tx_soapuser_extmanager.php:tx_soapuser_extmanager->promptExternalLinks]; label=External Links
+debugginExternalLinks = 0

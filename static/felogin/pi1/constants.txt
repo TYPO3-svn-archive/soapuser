@@ -1,0 +1,10 @@
+plugin.tx_soapuser_pi1 {
+  # cat=soapuser - pages/enable/100;      type=int+;      label= page uid: Id of the fe_users sysfolder
+  fe_users.pid = 
+
+  # cat=soapuser - pages/enable/200;      type=int+;      label= profile page uid: Id of the page for editing the user's profile
+  fe_users.profilePid =
+
+  # cat=soapuser - powermail/enable/100;  type=int+;      label= powermail uid: Id of the powermail form
+  powermail.uid = 
+}
