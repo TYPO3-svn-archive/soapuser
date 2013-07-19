@@ -98,9 +98,9 @@ if (!defined ('TYPO3_MODE'))  die ('Access denied.');
     // Add pagetree icons
 
   $TCA['pages']['columns']['module']['config']['items'][] =
-     array('DAT Users: FE-Login', 'feusrlgin', t3lib_extMgm::extRelPath($_EXTKEY).'ext_icon.gif');
+     array('Soapuser: FE-Login', 'feusrlgin', t3lib_extMgm::extRelPath($_EXTKEY).'ext_icon.gif');
   $TCA['pages']['columns']['module']['config']['items'][] =
-     array('DAT Users: Administration', 'feusradmn', t3lib_extMgm::extRelPath($_EXTKEY).'ext_icon.gif');
+     array('Soapuser: Administration', 'feusradmn', t3lib_extMgm::extRelPath($_EXTKEY).'ext_icon.gif');
   t3lib_SpriteManager::addTcaTypeIcon('pages', 'contains-feusrlgin', '../typo3conf/ext/soapuser/ext_icon.gif');
   t3lib_SpriteManager::addTcaTypeIcon('pages', 'contains-feusradmn', '../typo3conf/ext/soapuser/ext_icon.gif');
     // Add pagetree icons

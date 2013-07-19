@@ -13,7 +13,7 @@
         SOAP tests: Current IP isn't a member of the list of allowed IPs. SOAP tests are disabled! See category DEBUGGING.
       ]]></label>
       <label index="promptConfCheckerAdminError"><![CDATA[
-        DAT SOAP administrator
+        SOAPUSER administrator
         <ul>
           <li style="margin-bottom:0;">
             ERROR: Access data for the external SOAP administrator are missing.
