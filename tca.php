@@ -10,7 +10,7 @@
 $TCA['tx_soapuser_groups'] = array (
   'ctrl' => $TCA['tx_soapuser_groups']['ctrl'],
   'interface' => array (
-    'showRecordFieldList' => 'hidden,datgroup,fe_groups.note'
+    'showRecordFieldList' => 'hidden,soapusergroup,fe_groups.note'
   ),
   'feInterface' => $TCA['tx_soapuser_groups']['feInterface'],
   'columns' => array (
@@ -22,9 +22,9 @@ $TCA['tx_soapuser_groups'] = array (
         'default' => '0'
       )
     ),
-    'datgroup' => array (    
+    'soapusergroup' => array (    
       'exclude' => 0,    
-      'label' => 'LLL:EXT:soapuser/locallang_db.xml:tx_soapuser_groups.datgroup',
+      'label' => 'LLL:EXT:soapuser/locallang_db.xml:tx_soapuser_groups.soapusergroup',
       'config' => array (
         'type' => 'input',  
         'size' => '30',  
@@ -59,7 +59,7 @@ $TCA['tx_soapuser_groups'] = array (
     ),
   ),
   'types' => array (
-    '0' => array('showitem' => 'hidden,datgroup,fe_groups,note')
+    '0' => array('showitem' => 'hidden,soapusergroup,fe_groups,note')
   ),
 );
   // tx_soapuser_groups

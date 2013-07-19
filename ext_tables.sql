@@ -16,7 +16,7 @@ CREATE TABLE tx_soapuser_groups (
   cruser_id int(11) DEFAULT '0' NOT NULL,
   deleted tinyint(4) DEFAULT '0' NOT NULL,
   hidden tinyint(4) DEFAULT '0' NOT NULL,
-  datgroup varchar(255) DEFAULT '' NOT NULL,
+  soapusergroup varchar(255) DEFAULT '' NOT NULL,
   fe_groups varchar(255) DEFAULT '' NOT NULL,
   note text,
   
